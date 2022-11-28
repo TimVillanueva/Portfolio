@@ -1,0 +1,127 @@
+html{
+  max-height: 700px;
+  overflow: hidden;
+}
+.header-box{
+  height: 70px;
+  padding: 20px 0px 0px 20px;
+  border-bottom: 2px solid black;
+}
+.myName{
+  float:left;
+  font-size: 40px;
+}
+.nav {
+  text-align: end;
+  font-size: 25px;
+}
+.nav-ul{
+  padding: 0 20px 0 0;
+  list-style: none;
+}
+.nav-li{
+  padding-left: 20px;
+  display: inline-block;
+}
+
+.app-container{
+  display:flex;
+  /* border:2px solid black; */
+  position:relative;
+  width:100%;
+}
+.main-box, .image-box{
+  height: 90vh;
+}
+.main-box{
+  width: 60%;
+  height: 50vh;
+}
+.image-box{
+  width: 40%;
+}
+.footer-box{
+  padding:0 auto;
+  width:60%;
+  height: 30vh;
+  position: relative;
+  bottom: 32vh;
+  background-color: rgb(52, 61, 70);
+  color: white;
+}
+#message{
+height: 10vh;
+width: 40vw;
+text-align:left;
+resize:none;
+
+}
+input, textarea{
+  margin: 0px 0px 10px 10px;
+}
+.aboutMe-title{
+  font-size: 70px;
+  width: 61%;
+  padding: 30px 0px 0px 30px; 
+}
+#aboutMe-name{
+  padding: 0px 0 0 30px;
+  width: 90%;
+}
+.aboutMe-subheading{
+  padding-left: 35px;
+}
+.brandStatement{
+  padding-left: 35px;
+}
+.icons{
+  font-size:50px;
+  display:flex;
+  flex-direction: column;
+  border: 2px solid black;
+  box-shadow: 3px 3px 10px lightgrey;
+  border-radius:10px;
+  height: 50px;
+  width: 250px;
+  position: relative;
+  left: 35px;
+  transition: all 1s ease-out;
+  overflow: hidden;
+}
+.icon-items, .icon-hidden{
+  display:flex;
+  justify-content: space-between;
+  padding:0 10px 0 10px;
+}
+.icon-hidden h6{
+  font-size: 20px;
+  margin:0;
+}
+
+.icons:hover {
+transition: all 1s ease-in;
+width: 500px;
+height: 80px;
+}
+
+
+.project-container {
+  height: 100%;
+  display:grid;
+  grid-template-columns: repeat(2, 5fr);
+}
+.projectImage{
+  border-radius: 10px;
+  box-shadow:  3px 3px 3px lightgrey;
+}
+#pokedex{
+
+}
+#petAdoption{
+  position: relative;
+  top: 50px;
+}
+.grid-item{
+  font-size: 20px;
+  text-align:center;
+}
